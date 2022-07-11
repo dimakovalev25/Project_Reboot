@@ -1,0 +1,26 @@
+.sidepanel {
+    position: fixed;    /* будет двигаться с экраном */
+    top: 270px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    z-index: 3;
+    &__divider {
+        width: 2px;
+        height: 50px;
+        background-color: #000;
+    }
+    &__text {
+        width: 25px;
+        height: 150px;
+        font-weight: 700;
+        span {
+            display: block;
+            transform: rotate(-90deg) translate(-30%, -260%);
+            width: 150px;
+        }
+    }
+}

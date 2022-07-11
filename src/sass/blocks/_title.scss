@@ -1,0 +1,24 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    &__slogan {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 23px;
+        color: #000000;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__reboot {
+        font-weight: 700;
+        line-height: 80px;
+        font-size: 68px;
+        margin-top: 180px;
+    }
+    &__adress {
+        font-weight: 700;
+        font-size: 35px;
+        margin-top: 25px;
+    }
+}
