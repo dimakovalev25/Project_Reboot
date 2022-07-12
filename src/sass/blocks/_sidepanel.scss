@@ -1,16 +1,16 @@
 .sidepanel {
     position: fixed;    /* будет двигаться с экраном */
-    top: 270px;
+    top: 350px;
     left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 350px;
+    height: 190px;
     z-index: 3;
     &__divider {
         width: 2px;
-        height: 50px;
+        height: 70px;
         background-color: #000;
     }
     &__text {

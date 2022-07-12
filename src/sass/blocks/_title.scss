@@ -8,10 +8,6 @@
         line-height: 23px;
         color: #000000;
         text-align: left;
-        mark {
-            background-color: $main-color;
-        }
-        
     }
     &__reboot {
         font-weight: 700;
@@ -19,9 +15,13 @@
         font-size: 68px;
         margin-top: 180px;
     }
+    &__reb {
+        color: $main-color;
+    }
     &__adress {
         font-weight: 700;
         font-size: 35px;
         margin-top: 25px;
     }
+    
 }

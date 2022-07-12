@@ -16,27 +16,31 @@
     &__btns {
         margin-top: 25px;
         display: flex;
-        width: 450px;
+        width: 500px;
         justify-content: space-between;
     }
     &__link {
-        color: black;
+        color: white;
         font-weight: bold;
         &:hover {
-            color: black;
+            color: white;
             text-decoration: none;
         }
     }
 }
 
-.logo_r {
-    width: 20px;
-    height: 0%;
-    background-color: #000;
-    border-radius: 100%;
+.user_photo {
+    width: 520px;
+    height: 677px;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    top: -60px;
-    right: 30px;
+    top: -137px;
+    right: -350px;
+}
+
+.reboot_logo {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -190px;
+    right: 620px;
 }

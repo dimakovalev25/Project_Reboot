@@ -1,0 +1,57 @@
+.service {
+    height: 700px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.service__title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 54px;
+    color: $main-color;
+    text-align: center;
+}
+
+.title__favor {
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.title__favor-text {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: justify;
+}
+
+.divider {
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin-top: 10px;
+    right: 48.5%;
+}
+
+.service__favor {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 535px 535px;
+    grid-template-rows: minmax(245px, auto);
+    grid-auto-rows: minmax(245px, auto);
+    column-gap: 80px;
+    row-gap: 35px;
+}
+
+.img__title__favor {
+    display: flex;
+    justify-content: left;
+}
+
+.servise_circle {
+    padding-right: 10px;
+
+}

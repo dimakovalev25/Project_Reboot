@@ -1,0 +1,38 @@
+.about {
+    width: auto;
+    min-height: 950px; 
+}
+.user__title {
+    position: relative;
+    padding-top: 50px;
+    font-size: 50px;
+    line-height: 54px;
+    color: $main-color;
+    text-align: center;
+}
+.user__divider {
+    position: absolute;
+    color: $main-color;
+    width: 605px;
+    height: 5px;
+}
+.user__grid {
+    position: relative;
+    margin-top: 50px;
+}
+.photo_hands {
+    position: absolute;
+    width: 600px;
+    height: 750px;
+    left: 0;
+}
+.user__descr {
+    display: block;
+    position: absolute;
+    margin-left: 630px;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    text-align: justify;
+
+}
