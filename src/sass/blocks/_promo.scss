@@ -44,3 +44,12 @@
     top: -190px;
     right: 620px;
 }
+
+.reboot_logo_animated {
+    animation-name: logorotation;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+
+}

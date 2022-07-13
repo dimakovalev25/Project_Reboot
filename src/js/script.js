@@ -24,7 +24,11 @@ const slider = tns({
     gutter: 10,
     mouseDrag: true,
     swipeAngle: false,
-    speed: 400
+    speed: 400,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 2100,
+    swipeAngle: false
 
 });
 
@@ -34,3 +38,6 @@ document.querySelector('.slick-prev').addEventListener('click', function () {
 document.querySelector('.slick-next').addEventListener('click', function () {
     slider.goTo('next');
 });
+
+
+
