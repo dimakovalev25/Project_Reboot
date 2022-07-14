@@ -1,6 +1,6 @@
 .contacts {
     height: 800px;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .contacts__title {
@@ -25,16 +25,17 @@
 }
 
 .contacts__info {
-    background-color: #fcfcf7;
-    width: 610px;
-    height: 600px;
+    background-color: #fcfcf7;                         /*  размеры блока в карте!!!!!!!!!!!!!!!!!!! */
+    width: 510px;
+    height: 280px;
 
 }
 
 .contacts__info {
     padding: 5px 30px;
+    margin: 0 60%;
     position: absolute;
-    right: 17%;
+/*     right: 17%; */
     top: 0px;
 }
 
